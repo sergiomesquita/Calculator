@@ -1,0 +1,48 @@
+		* {
+			margin: 0;
+			padding: 0;
+			}
+
+		table {
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid black;
+		}
+
+
+		.button {
+			width: 50;
+			height: 50;
+			font-size: 25;
+			margin: 2;
+			cursor: pointer; 
+			background: rgba(255, 255, 255, .1);
+			border: none;
+			color: white;                                              
+		}
+
+
+		.textview {
+			width: 230px;
+			margin-bottom: 5px;
+			font-size: 25px;
+			padding: 5px;
+			border: none;
+			color: black;
+		}
+
+
+		.main {
+			position: absolute;
+			top: 30%;
+			left: 45%;
+			right: 70%;
+			bottom: 50%;
+			background: rgba(255, 255, 255, .2);
+		}
+
+		
+		.bg {
+			background: linear-gradient(to right, red, blue);
+			height: 100%;
+		}
